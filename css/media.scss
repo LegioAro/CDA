@@ -1,0 +1,832 @@
+/*===============================================================================*/
+
+                                    /*1020*/
+
+/*===============================================================================*/
+
+@media (max-width: 1190px) {
+    .conteiner {
+        max-width: 1020px;
+    }
+    
+    .header {
+        &__links-page-name {
+            padding: 51px 18px 43px;
+            font-size: 18px;
+        }
+        &__links-social-icon {
+            margin: auto 12px;
+        }
+        &__links-social-facebook::before {
+            font-size: 18px;
+        }
+        &__links-social-twitter::before {
+            font-size: 18px;
+        }
+        &__links-social-skype::before {
+            font-size: 18px;
+        }
+        &__links-social-in::before {
+            font-size: 18px;
+        }
+    }
+
+    .cover {
+        &__title {
+            font-size: 140px;
+        }
+        &__link-site {
+            font-size: 22px;
+            line-height: 46px;
+            letter-spacing: 22px;
+        }
+        &__link-site::before {
+            margin-left: 22px;
+        }
+        &__description{
+            margin: 100px 0 20px;
+            color: #ffffff;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        &__block {
+            margin: 300px 0 110px;
+        }
+    }
+
+    .news {
+        &__text-block-left{
+            margin: 76px 50px 76px calc((100vw - 1020px) / 2);
+        }
+        &__text-block-right {
+            margin: 76px calc((100vw - 1020px) / 2) 76px 50px;
+        }
+    }
+
+    .edits__content {
+        padding: 90px 0;
+    }
+
+    .team__workers-name {
+        font-size: 18px;
+    }
+
+    .form__message {
+        padding-top: 20px;
+    }
+
+    .footer__content {
+        padding: 29px 0;
+    }
+}
+
+/*===============================================================================*/
+
+                                    /*769*/
+
+/*===============================================================================*/
+
+@media (max-width: 1020px) {
+    .conteiner {
+        max-width: 769px;
+    }
+    
+    .header{
+        &__links-page-name {
+            padding: 51px 14px 43px;
+            font-size: 16px;
+        }
+        &__links-social-icon {
+            margin: auto 8px;
+        }
+        &__links-social-facebook::before {
+            font-size: 16px;
+        }
+        &__links-social-twitter::before {
+            font-size: 16px;
+        }
+        &__links-social-skype::before {
+            font-size: 16px;
+        }
+        &__links-social-in::before {
+            font-size: 16px;
+        }
+    }
+    
+    .feature{
+        &__description {
+            padding: 120px 0 100px;
+            display: flex;
+        }
+        &__description-block {
+            padding: 0 15px;
+        }
+        &__description-title {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        &__description-text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    .cover {
+        &__title {
+            font-size: 110px;
+        }
+        &__link-site {
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 18px;
+        }
+        &__link-site::before {
+            margin-left: 18px;
+        }
+        &__description{
+            margin: 80px 0 20px;
+            color: #ffffff;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        &__block {
+            margin: 250px 0 80px;
+        }
+    }
+
+    .news {
+        &__text-block-left{
+            margin: 50px 20px 50px calc((100vw - 769px) / 2);
+        }
+        &__text-block-right {
+            margin: 50px calc((100vw - 769px) / 2) 50px 20px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .blog {
+        &__content-title {
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: 100px;
+        }
+        &__content {
+            margin-top: 55px;
+        }
+        &__block {
+            margin: 0 5px 80px;
+        }
+        &__image {
+            margin-bottom: 32px;
+        }
+        &__title {
+            margin-bottom: 20px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    .edits {
+        &__content {
+            padding: 60px 0;
+        }
+        &__block {
+            margin-right: 34px;
+        }
+        &__image {
+            margin-right: 24px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    .present {
+        padding: 80px 0;
+        &__description {
+            margin: auto 40px auto 0;
+        }
+        &__title {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 50px;
+        }
+        &__option {
+            font-size: 14px;
+            padding: 12px 18px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .team {
+        &__content-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 100px;
+        }
+        &__workers {
+            padding: 50px 0 100px;
+        }
+        &__workers-block {
+            margin-right: 10px;
+        }
+        &__workers-discription {
+            padding: 10px 10%;
+        }
+        &__workers-name {
+            font-size: 14px;
+        }
+        &__workers-position {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+
+    .form {
+        &__message {
+            padding-top: 20px;
+        }
+        &__block {
+            padding: 130px 0 80px;
+        }
+        &__enter{
+            width: calc(30% - 25px);
+            font-size: 14px;
+        }
+        &__message-text {
+            width: calc(100% - 25px);
+            height: 150px;
+            margin-bottom: 40px;
+        }
+        
+        &__btn {
+            font-size: 18px;
+            line-height: 18px;
+            padding: 20px 60px;
+        }
+    }
+
+    .footer__content {
+        padding: 29px 0;
+    }
+
+    .title {
+        padding: 130px 0 0 0 ;
+        &__form {
+            padding: 130px 0 0 0 ;
+        }
+        &__text {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__word {
+            top: 55px;
+            font-size: 200px;
+        }
+        &__word-position {
+            top: 47px;
+        }
+        &__word-oppacity {
+            top: 45px;
+        }
+    }
+}
+
+/*===============================================================================*/
+
+                                    /*600*/
+
+/*===============================================================================*/
+
+@media (max-width: 768px) {
+
+    .burger {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 30px;
+        margin: auto 0;
+        z-index: 10;
+        &::before, &::after {
+            content: '';
+            background-color: #ffffff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0;
+            transition: all .3s linear;
+        }
+        &::before {
+            top: 0;
+        }
+        &::after {
+            bottom: 0;
+        }
+        &__block {
+            background-color: #ffffff;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            left: 0 ;
+            top: 14px;
+        }
+    }
+
+    .header{
+        position: fixed;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            z-index: 6;
+            
+        }
+        &__logo {
+            z-index: 10;
+        }
+        &__logo-image {
+            width: 50px;
+            height: 47px;
+            margin: 5px 0;
+            z-index: 6;
+        }
+        &__links {
+            flex-direction: column;
+            display: flex;
+        }
+        &__nav-block {
+            position: fixed;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            margin: 59px 0;
+            padding-bottom: 80px;
+            flex-direction: column;
+            z-index: 5;
+            display: flex;
+            overflow: auto;
+            transition: all .3s linear;
+            box-sizing: border-box;
+        }
+        &__links-page{
+            flex-direction: column;
+        }
+        &__links-page-name {
+            display: block;
+            padding: 20px 0;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &__links-social {
+            margin: 20px auto;
+        }
+        &__nav-block.active {
+            top: 0;
+            max-width: 100%;
+        }
+        &.active:before {
+            transform: rotate(45deg);
+            top: 14px;
+        }
+        &.active:after {
+            transform: rotate(-45deg);
+            bottom: 14px;
+        }
+        &.active &__block {
+            transform: scale(0);
+        }
+        &__links-social-facebook::before {
+            font-size: 30px;
+        }
+        &__links-social-twitter::before {
+            font-size: 30px;
+        }
+        &__links-social-skype::before {
+            font-size: 30px;
+        }
+        &__links-social-in::before {
+            font-size: 30px;
+        }
+        &__links-social-icon {
+            margin: 0 20px;
+        }
+    }
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .conteiner {
+        max-width: 100%;
+    }
+
+    .feature {
+        &__description {
+            padding: 100px 0 50px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__description-block {
+            padding: 0 ;
+            margin-bottom: 30px;
+            max-width: 50%;
+        }
+        &__description-title {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &__description-text {
+            font-size: 14px;
+            display: block;
+            line-height: 21px;
+            padding: 0 5px ;
+        }
+        &__description-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 0 auto 24px;
+        }
+    }
+
+    .cover {
+        &__title {
+            font-size: 90px;
+        }
+        &__link-site {
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 12px;
+        }
+        &__link-site::before {
+            margin-left: 12px;
+        }
+        &__description{
+            margin: 60px 0 20px;
+            color: #ffffff;
+            font-size: 13px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        &__block {
+            margin: 250px 0 80px;
+        }
+    }
+
+    .news {
+        &__text-block-left{
+            margin: 25px 15px 25px calc((100vw - 600px) / 2);
+        }
+        &__text-block-right {
+            margin: 25px calc((100vw - 600px) / 2) 25px 15px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .blog {
+        &__content-title {
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 70px;
+        }
+        &__content {
+            margin-top: 35px;
+            flex-wrap: wrap;
+        }
+        &__block {
+            margin: 0 0 35px;
+            flex: 0 0 50%;
+        }
+        &__image {
+            margin: 0 10px 22px 10px;
+        }
+        &__title {
+            margin: 0 10px 15px 10px;
+        }
+        &__text {
+            margin: 0 10px;
+        }
+    }
+
+    .edits {
+        &__content {
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        &__block {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        &__block:last-child {
+            margin-bottom: 0;
+        }
+        &__image {
+            margin-right: 14px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+
+    .present {
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        &__image {
+            margin: auto;
+            max-width:100%;
+        }
+    }
+
+    .team {
+        &__content-title {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 70px;
+        }
+        &__workers {
+            padding: 30px 0 30px;
+            flex-wrap: wrap;
+        }
+        &__workers-block {
+            margin-right: 0px;
+            align-items: center;
+            align-content: center;
+            box-sizing: border-box;
+        }
+        &__workers-discription {
+            padding: 10px 0;
+        }
+        &__workers-image {
+            max-width: 100%;
+            object-fit: cover;
+        }
+        &__workers-block-relative {
+            margin: 0 0 40px 0;
+            width: 50%;
+            box-sizing: border-box;
+        }
+    }
+    
+
+    .form {
+        &__message {
+            padding-top: 20px;
+        }
+        &__block {
+            padding: 80px 0 80px;
+        }
+        &__enter{
+            width: calc(30% - 25px);
+            font-size: 14px;
+        }
+        &__message-text {
+            width: calc(100% - 25px);
+            height: 150px;
+            margin-bottom: 40px;
+        }
+        
+        &__btn {
+            font-size: 18px;
+            line-height: 18px;
+            padding: 20px 60px;
+        }
+    }
+
+    .footer__content {
+        padding: 20px 0;
+    }
+
+    .title {
+        padding: 100px 0 0 0 ;
+        &__form {
+            padding: 100px 0 0 0 ;
+        }
+        &__text {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        &__word {
+            top: 20px;
+            font-size: 150px;
+        }
+        &__word-position {
+            top: 13px;
+        }
+        &__word-oppacity {
+            top: 10px;
+        }
+    }
+}
+
+/*===============================================================================*/
+
+                                    /*320*/
+
+/*===============================================================================*/
+
+
+@media (max-width:600px){
+    .conteiner {
+        max-width: 100%;
+    }
+    .header {
+        max-width: 100%;
+    }
+
+    .feature {
+        &__description {
+            padding: 60px 0 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__description-block {
+            padding: 0 ;
+            margin-bottom: 30px;
+            max-width: 100%;
+        }
+        &__description-title {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        &__description-text {
+            font-size: 14px;
+            display: block;
+            line-height: 21px;
+            padding: 0 5px ;
+        }
+        &__description-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin: 0 auto 24px;
+        }
+    }
+
+    .cover {
+        &__title {
+            font-size: 40px;
+        }
+        &__link-site {
+            font-size: 16px;
+            line-height: 36px;
+            letter-spacing: 2.5px;
+        }
+        &__link-site::before {
+            margin-left: 0;
+        }
+        &__block {
+            margin: 250px 0 80px;
+        }
+    }
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        &__text-block-left{
+            margin: 15px 0 ;
+        }
+        &__text-block-right {
+            margin: 15px 0 0;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 20px;
+        }
+        &__text:last-child{
+            margin-bottom: 0;
+        }
+        &__block {
+            flex: 1 1 100%;
+        }
+        &__block-image {
+            display: none;
+        }
+    }
+
+    .blog {
+        &__content-title {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 70px;
+        }
+        &__content {
+            margin-top: 35px;
+            flex-direction: column;
+        }
+        &__block {
+            flex: 0 0 100%;
+        }
+    }
+
+    .present {
+        &__image {
+            display: none;
+        }
+        &__description {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+
+    .team {
+        &__content-title {
+        font-size: 18px;
+        }
+        &__workers {
+            flex-direction: column;
+        }
+        &__workers-block {
+            width: 100%;
+        }
+        &__workers-discription {
+            padding: 10px 0;
+            width: 40%;
+        }
+        &__workers-block-relative {
+            width: 100%;
+        }
+    }
+
+    .form {
+        &__message {
+            padding-top: 20px;
+        }
+        &__block {
+            padding: 50px 0 50px;
+        }
+        &__enter{
+            width: calc(100% - 25px);
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        &__information {
+            flex-direction: column;
+        }
+    }
+
+    .footer__content {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .title {
+        padding: 100px 0 0 0 ;
+        &__form {
+            padding: 100px 0 0 0 ;
+        }
+        &__text {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__word {
+            top: 12px;
+            font-size: 120px;
+        }
+        &__word-position {
+            top: 8px;
+        }
+        &__word-oppacity {
+            top: 6px;
+        }
+    }
+}

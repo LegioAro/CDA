@@ -1,0 +1,72 @@
+//мигание
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+//
+@keyframes rocking {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(1deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+//тень
+@keyframes block-shadow {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 2px #222222;
+    }
+    100% {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px #222222;
+    }
+}
+
+//выдвинуть слева
+@keyframes extend-left {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+}
+
+//выдвинуть справа
+@keyframes extend-right {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
